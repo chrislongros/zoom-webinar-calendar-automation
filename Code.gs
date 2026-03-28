@@ -20,13 +20,8 @@
 var CONFIG = {
   // Gmail search keywords — emails must match at least one
   keywords: [
-    'ihpba',
-    'eahpba',
-    'hpb grand rounds',
-    'hpb cases',
-    'hepatobiliary',
-    'ecg webinar',
-    'ecg roadshow'
+    // Add your own keywords here — emails must contain at least one in the subject line
+    // Example: 'grand rounds', 'webinar series', 'continuing education'
   ],
 
   // Gmail label applied to processed emails (prevents duplicates)

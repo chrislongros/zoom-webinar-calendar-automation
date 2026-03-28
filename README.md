@@ -32,11 +32,9 @@ The script now runs every hour in the background.
 
 ```javascript
 var CONFIG = {
-  keywords: [         // Emails must match at least one keyword in subject
-    'ihpba',
-    'eahpba',
-    'hpb grand rounds',
-    // Add your own keywords here
+  keywords: [
+    // Add your own keywords here — emails must contain at least one in the subject line
+    // Example: 'grand rounds', 'webinar series', 'continuing education'
   ],
   processedLabel: 'Webinar-Calendar-Added',  // Gmail label for processed emails
   eventColor: CalendarApp.EventColor.PALE_BLUE,
